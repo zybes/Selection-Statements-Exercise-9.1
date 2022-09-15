@@ -1,4 +1,4 @@
-##Exercise 1:
+## Exercise 1:
 
 Create a program that allows a user to play a game where they must guess what your favorite number is:
 
@@ -22,16 +22,6 @@ var userInput = int.Parse(Console.ReadLine());
 + Create an else statement that prints out some type of congratulations for guessing the correct number e.g. “You guessed it!!!”.
 
 Remember to save, commit, and push back to Github once complete
-
-
-
-## Exercise 2:
-
-+ Ask the user for their favorite school subject.
-+ Store their answer in a variable
-+ Pass the variable as the expression in a switch statement.
-+ Create 5 different cases for different subjects. Each case will print the subject chosen and a custom message of your choosing.
-+ Create a default case to handle any case not handled.
 
 ## Extra Switch Statement Practice:
 
