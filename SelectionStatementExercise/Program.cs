@@ -4,33 +4,34 @@
     {
         static void Main(string[] args)
         {
-            /* //Number Guessing Game
+             //Number Guessing Game
 
             var r = new Random();
             //var favNumber = r.Next(1, 1000);
             var favNumber = 5;
+            int userInput;
             do
             {
 
-            }
-            Console.WriteLine("Pick a number from 1 - 1000");
-            var userInput = int.Parse(Console.ReadLine());
+           
+                Console.WriteLine("Pick a number from 1 - 1000");
+                userInput = int.Parse(Console.ReadLine());
 
-            if (userInput < favNumber)
-            {
-                Console.WriteLine($"{userInput} is too low");
-            }
-            else if (userInput > favNumber)
-            {
-                Console.WriteLine($"{userInput} is too high");
-            }
-            else
-            {
-                Console.WriteLine("You guessed it!");
-            }
-            } while (userInput != favNumber); */
+                if (userInput < favNumber)
+                {
+                    Console.WriteLine($"{userInput} is too low");
+                }
+                else if (userInput > favNumber)
+                {
+                    Console.WriteLine($"{userInput} is too high");
+                }
+                else
+                {
+                    Console.WriteLine("You guessed it!");
+                }
+            } while (userInput != favNumber);
 
-            //Switch Case
+            /* Switch Case
 
             Console.WriteLine("What is your favorite subject?");
 
@@ -38,26 +39,26 @@
 
             switch(subject.ToLower()) 
             {
-                case "Math":
+                case "math":
                     Console.WriteLine("Math is ok");
                     break;
-                case "Science":
+                case "science":
                     Console.WriteLine("Science is ok");
                     break;
-                case "P.E.":
+                case "p.e.":
                     Console.WriteLine("P.E. is ok");
                     break;
-                case "History":
+                case "history":
                     Console.WriteLine("History is ok");
                     break;
-                case "English":
+                case "english":
                     Console.WriteLine("English is ok");
                     break;
                 default:
                     Console.WriteLine("I don't know that subject.");
-                    break;
-            }
-        
+                    break; 
+            }*/
+
         }
     }
 }
